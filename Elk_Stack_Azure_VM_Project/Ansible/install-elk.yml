@@ -35,7 +35,7 @@
       # Use docker_container module
     - name: download and launch a docker elk container
       docker_container:
-        name: elk
+        name: Elk_Container
         image: sebp/elk:761
         state: started
         restart_policy: always
