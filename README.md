@@ -2,7 +2,7 @@
  
 The files in this repository were used to configure the network depicted below.
  
-![Network_diagram](Elk_Stack_Azure_VM_Project/Diagrams/AMIES%20Network_Diagram.drawio.pnghttps://github.com/StaticTV/super-spoon/blob/main/Elk_Stack_Azure_VM_Project/Diagrams/AMIES%20Network_Diagram.drawio.png)
+![Network_diagram](https://github.com/StaticTV/super-spoon/blob/main/Elk_Stack_Azure_VM_Project/Diagrams/AMIES%20Network_Diagram.drawio.png)
  
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the .yml files may be used to install only certain pieces of it, such as Filebeat.
  
