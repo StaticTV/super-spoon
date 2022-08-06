@@ -21,8 +21,9 @@ This Readme contains the following details:
   - Beats in Use
   - Machines Being Monitored
 - How to Use the Ansible Build
- 
- 
+ <br> 
+ <br> 
+
 ### Description of the Topology
  
 The main purpose of this network is to expose a load-balanced and monitored instance of DVWA, the D*mn Vulnerable Web Application.
@@ -43,7 +44,8 @@ The configuration details of each machine:
 | Web-2      | Web server   | 10.10.0.6  | Linux            |
 | Web-3      | Web server   | 10.10.0.7  | Linux            |
 | Elk Server | Data Monitor | 10.1.0.1   | Linux            |
- 
+<br> <br>  
+
 ### Access Policies
  
 The machines on the internal network are not exposed to the public Internet.
@@ -63,7 +65,8 @@ A summary of the access policies in place:
 | Web-2      | No                  | 10.10.0.4                  |
 | Web-3      | No                  | 10.10.0.4                  |
 | Elk Server | Yes                 | 124.170.54.169 & 10.10.0.4 |
- 
+ <br> <br> 
+
 ### Elk Configuration
  
 Ansible was used to automate the configuration of the ELK machine. No configuration was performed manually, which is advantageous as it allows us to efficiently update and deploy new VM's significantly reducing the time required to set up each VM individually and deploy future VMs that may be required.
@@ -76,7 +79,8 @@ The playbook implements the following tasks:
 - Download and launch docker elk container
 - Enable service docker on boot
 - [The Whole Elk Installation Playbook can be accessed by clicking on this sentence](https://github.com/StaticTV/super-spoon/blob/main/Elk_Stack_Azure_VM_Project/Ansible/install-elk.yml)
- 
+ <br> <br> 
+
 ### Target Machines & Beats
 This ELK server is configured to monitor the following machines:
 - 10.10.0.5
@@ -86,7 +90,8 @@ This ELK server is configured to monitor the following machines:
 We have installed both Filebeat and Metricbeat on these machines allowing us to collect the following information from each machine:
 Metricbeat: Collects system metrics and statistics from these machines and sends them to be analyzed. Enables us to detect possible attacks.
 Filebeat: Detects the changes to the system files.  
- 
+ <br> <br> 
+
 ### Using the Playbook
 In order to use the playbook, you will need to have an Ansible control node already configured. Assuming you have such a control node provisioned:
  
